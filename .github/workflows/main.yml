@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Show my name
-        run: echo -e "Hi, y name is (what?)\nMy name is (who?)\nMy name is ${{variables.NAME}} ${{variables.SURNAME}}"
+        run: echo -e "Hi, y name is (what?)\nMy name is (who?)\nMy name is ${{vars.NAME}} ${{vars.SURNAME}}"
 
   
